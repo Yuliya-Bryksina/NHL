@@ -1,0 +1,165 @@
+body {
+  font-family: "PT Sans", serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #07305a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1,
+h2 {
+  margin: 20px 0;
+}
+
+form {
+  background-color: #f7f7f7; /* Цвет фона формы */
+  padding: 20px;
+  border-radius: 5px; /* Слегка закругленные углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+input[type="submit"] {
+  background-color: #4caf50; /* Зеленый фон кнопки */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Увеличенный размер шрифта */
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+label {
+  display: block; /* Заставляет метки занимать всю доступную ширину */
+  margin-top: 20px; /* Отступ сверху */
+  font-size: 14px; /* Размер шрифта меток */
+  font-weight: bold; /* Делает текст меток жирным */
+}
+
+select {
+  display: block;
+  font-size: 14px;
+  height: 44px; /* Высота, чтобы соответствовать другим полям ввода */
+}
+
+/* Стилизация поля ввода даты */
+input[type="date"] {
+  color: #444; /* Цвет текста в поле ввода */
+}
+
+form input[type="date"] {
+  box-sizing: border-box; /* Учитываем padding и border внутри ширины */
+  width: 30%; /* Устанавливаем ширину в 30% */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Установка стилей для всего раздела формы */
+.form-section {
+  max-width: 840px;
+  margin: 0 auto; /* Центрирует форму */
+  padding: 20px;
+}
+
+form input,
+form select,
+form button {
+  box-sizing: border-box; /* Учитываем padding и border внутри ширины */
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form input,
+form select,
+form button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0055a4;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007acc;
+  color: white;
+}
+
+/* Добавьте это в ваш файл style.css */
+.winner-dima {
+  color: rgb(22, 22, 175);
+}
+
+.winner-yuli {
+  color: rgb(158, 64, 79);
+}
+
+section {
+  width: 840px;
+  margin: 0 auto; /* Центрирует блок */
+}
+
+table {
+  width: 100%; /* Заставляет таблицу заполнять блок section */
+  border-collapse: collapse; /* Убирает двойные границы между ячейками */
+  border-radius: 5px; /* Закругление углов таблицы */
+  overflow: hidden; /* Обрезает контент, выходящий за рамки блока */
+  background-color: #f0f0f0; /* Цвет фона таблицы для контраста */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Чередование цветов строк таблицы */
+table tr:nth-child(odd) {
+  background-color: #e9e9e9;
+}
+
+table tr:nth-child(even) {
+  background-color: #d9d9d9;
+}
+
+label {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
