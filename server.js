@@ -15,6 +15,10 @@ const path = require("path");
 // Предполагается, что ваши файлы index.html, style.css и script.js находятся в папке 'public'
 app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
 const uri = process.env.MONGODB_URI; // Используем переменную среды MONGODB_URI из файла .env
 
 // MongoDB Connection
